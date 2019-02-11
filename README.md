@@ -10,8 +10,8 @@
 **[Performance](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#performance)**  
 **[Driver Selection](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#driver-selection)**  
  **[Driver Download and Installation](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#driver-download-and-installation)**  
- - [ROCm](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#instructions-for-installing-rocm-skip-to-the-next-section-for-amdgpu-pro-instructions)  
- - [AMDGPU-PRO](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#instructions-for-installing-amdgpu-pro)
+ - [ROCm](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#instructions-for-installing-rocm-drivers)  
+ - [AMDGPU-PRO](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#instructions-for-installing-the-amdgpu-pro-driver)
 
 **[Installing ePIC Boost Miner](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#epic-boost-miner-installation)**  
 **[Looking for Mining Pools](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#looking-for-mining-pools)**  
