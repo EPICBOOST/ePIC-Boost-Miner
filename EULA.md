@@ -50,3 +50,5 @@
 #### Equihash Solver provided under MIT License and Copyright (c) 2016 [**https://github.com/tromp/equihash**](https://github.com/tromp/equihash)
 
 #### Grin-Miner provided under Apache 2.0 Licence and Copyright (c) 2019 [https://github.com/mimblewimble/grin-miner](https://github.com/mimblewimble/grin-miner)
+
+**[Download](https://github.com/EPICBOOST/ePIC-Boost-Miner/releases) ePIC BOOST miner. BY DOWNLOADING, INSTALLING, AND/OR USING THIS SOFTWARE, YOU ARE AGREEING TO THE TERMS OF THIS EULA.**
