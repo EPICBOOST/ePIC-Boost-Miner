@@ -276,9 +276,9 @@ There are four plugins to choose from:
 
 - cuckatoo_mean_opencl_rocm_31
 
-- cuckaroo_mean_opencl_amdgpu_31
+- cuckaroo_mean_opencl_amdgpu_29
 
-- cuckaroo_mean_opencl_rocm_31
+- cuckaroo_mean_opencl_rocm_29
 
   
 
