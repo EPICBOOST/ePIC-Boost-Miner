@@ -29,13 +29,13 @@ This miner will provide superior performance on Cuckatoo31, compared to cards co
 
 Additionally, ePIC miner's plug-in drivers for ROCm and OCL provide full fidelity or full accuracy when mining Grin. This is an important point to note as Cuckatoo31 requires 14GB of GPU memory to accurately solve a graph cycle. With Sapphire’s 16GB memory, mining performance is up to 40% faster than competing Nvidia GPU’s with only 11GB. These 11GB cards use a memory overflow optimization to solve Cuckatoo31 graphs, but that reduces actual mining performance by 30% in real-world situations. For example, an Nvidia 1080ti will solve at 0.52 gps but in actual mining conditions, pool results show 0.37 GPS or about 30% less.
 
-THE LOWER FIDELITY ON 11GB AND 8GB CARDS WHEN MINING CUCKATOO31 RESULTS IN LESS MINING REWARDS.
+WHEN USING CUCKATOO31 WITH 11GB AND 8GB CARDS AND OTHER MINING SOFTWARE, THE LOWER FIDELITY RESULTS IN LESS MINING REWARDS.
 
 **Note: ePIC deducts a 2.5% dev fee from your mining rewards. To help fund the Grin community and support future improvements, ePIC will donate 20% of the collected dev fee back to the community. See [General Funding](https://grin-tech.org/general_funding) for more details. If you do not agree with ePIC’s dev fee policy, you can use other software to mine Grin. Performance may vary significantly when using other mining software.**
 
 If you wish to purchase and/or obtain more info on this GPU, please visit the [Sapphire RX 570 16GB GPU](https://gpuminer.sapphiretech.com/Radeon-RX-570-16GB-Blockchain/) site.
 
-For further information on system requirements, performance, driver selection and installation please refer to the information below.
+For further information on system requirements, performance, driver selection and installation, please refer to the information below.
 
 ---
 
@@ -50,7 +50,7 @@ For further information on system requirements, performance, driver selection an
 | **PCIe** | *Gen 2.0 or Gen 3.0 |
 |||
 
-###### **The AMDGPU-PRO driver is supported on both PCIe Gen2 and Gen3, while ROCm is only supported on PCIe Gen 3.0 with atomics.*
+###### **The AMDGPU-PRO driver is supported on both PCIe Gen2 and Gen3, while ROCm is only supported on PCIe Gen 3.0 with Atomics.*
 
 ---
 
@@ -63,8 +63,8 @@ Your performance will vary depending on your CPU, PCIe slot and GPU driver used.
 | | **Base** | **Better**  |**Best**|
 | **CPU**           | Celeron / Pentium | i3/i5/i7/Ryzen Multithreading |i5/i7/i9/Ryzen Multithreading
 | **Bus**    | PCIe 2.0      |  PCIe 3.0 |PCIe 3.0 with [Atomics](https://github.com/RadeonOpenCompute/ROCm_Documentation/blob/master/Installation_Guide/More-about-how-ROCm-uses-PCIe-Atomics.rst)|
-| **Cuckaroo29+ Performance**| 1.5 gps      |    1.6 gps |1.9 gps|
-| **Cuckatoo31+ Performance** | 0.35 gps      |    0.41 gps |0.45 gps|
+| **Cuckaroo29+ Performance**| 1.5 gps      |    1.6 gps |2.0 gps|
+| **Cuckatoo31+ Performance** | 0.35 gps      |    0.42 gps |0.47 gps|
 |**Mining Fidelity**| 0.99      |    0.99 | 0.99|
 | **Driver** | [AMD GPU Pro](https://www.amd.com/en/support/graphics/radeon-500-series/radeon-rx-500-series/radeon-rx-570)     |    [AMD GPU Pro](https://www.amd.com/en/support/graphics/radeon-500-series/radeon-rx-500-series/radeon-rx-570) | [AMD ROCm](https://github.com/RadeonOpenCompute/ROCm)|
 
@@ -73,15 +73,18 @@ Your performance will vary depending on your CPU, PCIe slot and GPU driver used.
 ***Disclaimers:*** 
  ###### - Performance may vary depending upon your system configuration. Your performance in mining conditions may differ substantially depending on your system, network difficulty, internet connection and other factors. Refer to EULA for additional information.
 
-###### - Features amd performance are subject to change without notice.
+###### - Features and performance are subject to change without notice.
   
-######  -  WHEN USING CUCKATOO31 WITH 11GB AND 8GB CARDS AND OTHER MINING SOFTWARE, THE LOWER FIDELITY RESULTS IN LESS MINING REWARDS.
 
 ---
 
 ## Driver Selection
 
-Use the following chart to determine the best driver for your system confirmation. If you are unsure, use the AMD GPU Pro Driver. Best performance can be had if your system supports PCIe Gen3 and Atomics, however that is system dependent.
+Use the following chart to determine the best driver for your system configuration. If unsure, use the AMD GPU Pro Driver. 
+
+**If your system supports PCIe Gen3 and Atomics**, use ROCm for best performance. 
+
+*NOTE: ROCm will not work with PCIe Gen2 or Gen3 without [Atomics](https://github.com/RadeonOpenCompute/ROCm_Documentation/blob/master/Installation_Guide/More-about-how-ROCm-uses-PCIe-Atomics.rst).
 
 
 ![](https://lh5.googleusercontent.com/qD_lKkPqnjHKtiL96RQ_fELGKzz6IEV90ooGg07nHqLY5K3ZR9H9LhTMBwwkNZpuarQFvgbeZ_kmTCMU3-Vxv53dna4q5giZSxXj6QY3vdA1JuquC8hwbaQ0xJGdsuwTO4hBKN99)
