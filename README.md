@@ -84,7 +84,7 @@ Use the following chart to determine the best driver for your system configurati
 
 **If your system supports PCIe Gen3 and Atomics**, use ROCm for best performance. 
 
-*NOTE: ROCm will not work with PCIe Gen2 or Gen3 without [Atomics](https://github.com/RadeonOpenCompute/ROCm_Documentation/blob/master/Installation_Guide/More-about-how-ROCm-uses-PCIe-Atomics.rst).
+###### NOTE: ROCm will not work with PCIe Gen2 or Gen3 without [Atomics](https://github.com/RadeonOpenCompute/ROCm_Documentation/blob/master/Installation_Guide/More-about-how-ROCm-uses-PCIe-Atomics.rst).
 
 
 ![](https://lh5.googleusercontent.com/qD_lKkPqnjHKtiL96RQ_fELGKzz6IEV90ooGg07nHqLY5K3ZR9H9LhTMBwwkNZpuarQFvgbeZ_kmTCMU3-Vxv53dna4q5giZSxXj6QY3vdA1JuquC8hwbaQ0xJGdsuwTO4hBKN99)
