@@ -227,7 +227,7 @@ cd ~/Downloads/amdgpu-pro-18.50-725072-ubuntu-18.04
 
 #### 1. Download
 
-[Download](https://github.com/EPICBOOST/ePIC-Boost-Miner/releases/tag/v1.0) miner from the Release tab.
+[Download](https://github.com/EPICBOOST/ePIC-Boost-Miner/releases) miner from the Release tab.
 
   
 
@@ -237,7 +237,7 @@ cd ~/Downloads/amdgpu-pro-18.50-725072-ubuntu-18.04
 
 cd <Download directory>
 
-tar xzvf ePIC-Boost-Miner-v1.0.tar.gz
+tar xzvf ePIC-Boost-Miner-v<version number>.tar.gz
 
 ```
 
