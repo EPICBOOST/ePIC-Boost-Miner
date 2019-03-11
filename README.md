@@ -1,6 +1,7 @@
 ![](https://lh3.googleusercontent.com/2USBQm0ugfhaNqPYZp33OaHBlrnntJG8Ll-HkT7C5x_Uzg5L6v4GE1DB5idhPZ5HUaesp966jZukwODopH_jYFZ3ce-fR-j9HK0qubYyiiVOI9Yesn9FFPyGHn352kakQuoM9T1S)
 # ePIC Boost Miner for GRIN COIN #
 
+ :boom:  NOW Supporting **CUCKATOO32!**
 #### Please UNDERSTAND and AGREE to the terms in the [EULA](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/EULA.md) before using ePIC Boost Miner for Grin Coin ####
 ---
 ## Table of Contents
