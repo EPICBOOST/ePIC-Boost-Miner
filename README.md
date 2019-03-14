@@ -102,9 +102,7 @@ Use the following chart to determine the best driver for your system configurati
 ###### :high_brightness:*For AMDGPU-PRO users, [Skip](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#instructions-for-installing-the-amdgpu-pro-driver) to the next section. For additional information on the ROCm Driver please visit the [official page](https://github.com/RadeonOpenCompute/ROCm#ubuntu-support---installing-from-a-debian-repository).*
 
 
-#### 1. Download the [ROCm Driver](https://github.com/RadeonOpenCompute/ROCm). 
-
-#### 2. Make sure your system is up to date
+#### 1. Make sure your system is up to date
 
 ```sh
 
@@ -118,7 +116,7 @@ sudo reboot
 
 ```
 
-#### 3. Add the ROCm apt repository
+#### 2. Add the ROCm apt repository
 
 ```sh
 
@@ -128,7 +126,7 @@ echo 'deb [arch=amd64] http://repo.radeon.com/rocm/apt/debian/ xenial main' | su
 
 ```
 
-#### 4. Install
+#### 3. Install
 
 ```sh
 
@@ -140,7 +138,7 @@ sudo apt install rocm-dkms
 
   
 
-#### 5. Set Your Permissions
+#### 4. Set Your Permissions
 
 ```sh
 
@@ -150,7 +148,7 @@ sudo usermod -a -G video $LOGNAME
 
   
 
-#### 6. Finish Install
+#### 5. Finish Install
 
 ```sh
 
@@ -160,7 +158,7 @@ sudo reboot
 
   
 
-#### 7. Check Install
+#### 6. Check Install
 
 ```sh
 
@@ -169,7 +167,7 @@ sudo reboot
 /opt/rocm/opencl/bin/x86_64/clinfo
 
 ```
-#### 8. [Install the ePIC Boost Miner for Grin Coin](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#installing-epic-boost-miner)
+#### 7. [Install the ePIC Boost Miner for Grin Coin](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#installing-epic-boost-miner)
   
 ---
 
