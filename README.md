@@ -211,7 +211,7 @@ tar -Jxvf amdgpu-pro-18.50-725072-ubuntu-18.04.tar.xz
 
 cd ~/Downloads/amdgpu-pro-18.50-725072-ubuntu-18.04
 
-./amdgpu-pro-install --opencl=legacy
+./amdgpu-install --opencl=legacy
 
 ```
 #### 4. [Install ePIC Boost Miner for Grin Coin](https://github.com/EPICBOOST/ePIC-Boost-Miner/blob/master/README.md#installing-epic-boost-miner)
