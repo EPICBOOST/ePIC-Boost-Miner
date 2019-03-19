@@ -45,11 +45,13 @@ For further information on system requirements, performance, driver selection an
 |--:|--|
 |**CPU**|Celeron or faster Intel / AMD processor
 | **Memory** |8GB system memory|
-|**OS**|Ubuntu 18.04.1 installation|
+|**OS**|Ubuntu 18.04.1 installation   *(Ensure 18.04.1. 18.04.2 is currently broken with AMDGPU drivers)*|
 |**Driver**|ROCm or AMDGPU-PRO driver stack *(**MUST USE ONLY ONE OF THE TWO**)*|
 |**GPU**|  Sapphire RX570 16GB only|
 | **PCIe** | *Gen 2.0 or Gen 3.0 |
 |||
+
+###### Ubuntu 18.04.1 ISO: http://old-releases.ubuntu.com/releases/18.04.1/ubuntu-18.04.1-desktop-amd64.iso
 
 ###### **The AMDGPU-PRO driver is supported on both PCIe Gen2 and Gen3, while ROCm is only supported on PCIe Gen 3.0 with Atomics.*
 
