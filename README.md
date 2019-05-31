@@ -67,7 +67,7 @@ Your performance will vary depending on your CPU, PCIe slot and GPU driver used.
 | **CPU**           | Celeron / Pentium | i3/i5/i7/Ryzen Multithreading |i5/i7/i9/Ryzen Multithreading
 | **Bus**    | PCIe 2.0      |  PCIe 3.0 |PCIe 3.0 with [Atomics](https://github.com/RadeonOpenCompute/ROCm_Documentation/blob/master/Installation_Guide/More-about-how-ROCm-uses-PCIe-Atomics.rst)|
 | **Cuckaroo29+ Performance**| 1.5 gps      |    1.6 gps |2.0 gps|
-| **Cuckatoo31+ Performance** | 0.35 gps      |    0.42 gps |0.47 gps|
+| **Cuckatoo31+ Performance** | 0.48 gps      |    0.51 gps |0.54 gps|
 |**Mining Fidelity**| 0.99      |    0.99 | 0.99|
 | **Driver** | [AMD GPU Pro](https://www.amd.com/en/support/graphics/radeon-500-series/radeon-rx-500-series/radeon-rx-570)     |    [AMD GPU Pro](https://www.amd.com/en/support/graphics/radeon-500-series/radeon-rx-500-series/radeon-rx-570) | [AMD ROCm](https://github.com/RadeonOpenCompute/ROCm)|
 
